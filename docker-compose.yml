@@ -1,0 +1,9 @@
+services:
+  springboot:
+    build: .
+    container_name: java-springboot-container
+    volumes:
+      - ./projects:/workspace
+    ports:
+      - "8080:8080"
+    tty: true
