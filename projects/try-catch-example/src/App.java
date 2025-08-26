@@ -18,6 +18,8 @@ public class App {
             System.err.println("Voce se chama: " + nome + " e tem " + idade);
             System.err.println("Sua altura é: " + altura);
 
+            scan.close();
+
         } catch (Exception e) {
             System.err.println("Deu bom nao batma: " + e);
         }
